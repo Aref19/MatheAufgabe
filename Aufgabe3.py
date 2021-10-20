@@ -1,7 +1,7 @@
-def BinearToDecimal(BinearList):
-    lengh = len(BinearList) - 1
+def BinearToDecimal(binearList):
+    lengh = len(binearList) - 1
     result = 0
-    for i in BinearList:
+    for i in binearList:
         if (i == 1):
          result += 2 ** lengh
          print(result)
@@ -16,4 +16,4 @@ def decimalToBineare(zahl):
     return bin(zahl)
 
 
-print(decimalToBineare(8))
+print(decimalToBineare(-4))
